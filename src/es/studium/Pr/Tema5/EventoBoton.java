@@ -39,6 +39,8 @@ public class EventoBoton implements ActionListener, WindowListener //implements 
 	}
 	
 	//Este metodo sera necesario siempre que trabajemos con eventos y Botones.
+	//Cuando pulsamos un boton un un actionListener asociado se produce un ActionEvent, chequeamos que boton le dio origen al action event. 
+	//Si al evento le dio origen tal boton, hacemos tal cosa...
 	@Override
 	public void actionPerformed(ActionEvent e)
 	{
